@@ -6,3 +6,7 @@ The code processes an html table using bs4, pandas to manipulate, convert the ta
 
 ## Notebook
 In [Colab](https://colab.research.google.com/), up futwatch-notebook.ipynb to see how this work.
+
+<p align="center">
+ <img src="https://i.ibb.co/h9mH4nx/fut.png">
+</p>
