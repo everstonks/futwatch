@@ -1,5 +1,5 @@
 # futwatch
-The code processes an html table using bs4, pandas to manipulate, convert the table into dataframe and render, finally Flask to access the table with the address *localhost:8000*. 
+The code processes an html table after scraping a web page using bs4, pandas to manipulate, convert and render again html, finally Flask to access the table with the address *localhost:8000*. 
 
 ## Execute
 `$ docker-compose build && docker-compose up`
