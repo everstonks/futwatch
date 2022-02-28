@@ -1,8 +1,8 @@
 # futwatch
-The code processes an html table after scraping a web page using bs4, pandas to manipulate, convert and render again html, finally Flask to access the table with the address *localhost:8000*. 
+An html is processed to table after scraping a website using bs4 and pandas(manipulate, convert and render). Access the table in the address *localhost:8000*. 
 
 ## Execute
-`$ docker-compose build && docker-compose up`
+`$ docker-compose build && docker-compose up -d`
 
 ## Notebook
 In [Colab](https://colab.research.google.com/), up futwatch-notebook.ipynb to see how this work.
