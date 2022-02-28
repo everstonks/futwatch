@@ -1,5 +1,5 @@
 # futwatch
-An html is processed to table after scraping a website using bs4 and pandas(manipulate, convert and render). Access the table in the address *localhost:8000*. 
+An html table is processed after scraping a website using bs4 and pandas(manipulate, convert and render). Access the table in the address *localhost:8000*. 
 
 ## Execute
 `$ docker-compose build && docker-compose up -d`
