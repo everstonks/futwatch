@@ -2,8 +2,8 @@ FROM python:slim
 
 RUN useradd -m -d /home/futuser futuser &&\
     apt-get update && apt-get --no-install-recommends install -y locales &&\
-    cp /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime && echo "America/Sao_Paulo" > /etc/timezone &&\
-    localedef -i pt_BR -c -f UTF-8 -A /usr/share/locale/locale.alias pt_BR.UTF-8
+    cp /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime && echo "America/Sao_Paulo" > /etc/timezone
+    # &&\ localedef -i pt_BR -c -f UTF-8 -A /usr/share/locale/locale.alias pt_BR.UTF-8
 
 USER futuser
 WORKDIR /home/futuser/app/service
